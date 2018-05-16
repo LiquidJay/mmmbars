@@ -4,14 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title> mmmbars </title>
-
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <style type="text/css">
 
 body{
-	background: #fbf056;
+	background: #f4f7f6;
 	color: #111111;
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	margin: 0;
 }
 nav{
+	background: #fbf056;
+	border-bottom: 1px solid #111;
 	display: flex;
 	justify-content: space-between;
 }
@@ -20,11 +25,24 @@ nav ul{
 	display: flex;
 }
 nav ul li{
-	
 	margin-right: 20px;
 }
+nav ul li a{
+	color: #111;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	cursor: pointer;
+}
 h1{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+header{
+	position: relative;
 	text-align: center;
+	top: 100px;
 }
 
 </style>
@@ -34,8 +52,8 @@ h1{
 	<div class="main_wrapper">
 		<nav>
 			<ul>
-				<li>What's an mmmmbar ?</li>
-				<li>Ingredients</li>
+				<li><a href="#">What's an mmmmbar?</a></li>
+				<li><a href="#">Ingredients</a></li>
 			</ul>
 
 			<ul>
@@ -43,7 +61,7 @@ h1{
 			</ul>
 		</nav>
 
-		<h1><span>mmmbars</span> - coming soon to a belly near you</h1>
+		<header><h1><span>mmmbars</span></h1> - coming soon to a belly near you</header>
 	</div>
 </body>
 </html>
