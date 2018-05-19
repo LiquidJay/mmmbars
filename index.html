@@ -8,19 +8,24 @@
 <style type="text/css">
 
 body{
-	background: #f4f7f6;
+	background: #fbf056; /* Old browsers */
 	color: #111111;
 	font-family: 'Lato', sans-serif;
 	padding: 0;
 	margin: 0;
 }
 nav{
-	background: #fbf056;
-    border-bottom: 1px solid rgba(0,0,0,.3);
-    display: flex;
-    justify-content: space-between;
-    height: 77px;
-    align-items: center;
+	display: flex;
+	height: 77px;
+	align-items: center;
+	margin:0 10px;
+}
+
+nav span{
+	font-size: 30px;
+	border: 1px solid #111;
+	border-radius: 4px;
+	padding:5px;
 }
 nav ul{
 	list-style: none;
@@ -38,13 +43,14 @@ nav ul li a:hover{
 }
 h1{
 	display: inline-block;
+	font-size: 70px;
 	margin: 0 auto;
 }
 
 header{
 	position: relative;
 	text-align: center;
-	top: 100px;
+	top: 200px;
 }
 
 </style>
@@ -53,14 +59,7 @@ header{
 <body>
 	<div class="main_wrapper">
 		<nav>
-			<ul>
-				<li><a href="/mmm.html">What's an mmmbar?</a></li>
-				<li><a href="/ingredients.html">Ingredients</a></li>
-			</ul>
-
-			<ul>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
+			<span>mmmbars</span>
 		</nav>
 
 		<header><h1><span>mmmbars</span></h1> - coming soon to a belly near you</header>
