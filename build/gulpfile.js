@@ -1,13 +1,9 @@
 var gulp = require('gulp');
-const sass = require('gulp-ruby-sass');
+var sass = require('gulp-ruby-sass');
 
 gulp.task('default', function() {
   // place code for your default task here
-});
-
-
-gulp.task('sass', () =>
-    sass('styles/*.scss')
+  sass('sass/*.scss')
         .on('error', sass.logError)
-        .pipe(gulp.dest('../styles/css'))
-);
+        .pipe(gulp.dest('sass'))
+});
