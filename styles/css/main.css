@@ -1,0 +1,35 @@
+body {
+  background: #fbf056;
+  /* Old browsers */
+  color: #111111;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+nav {
+  display: flex;
+  height: 77px;
+  align-items: center;
+  margin: 0 10px; }
+  nav .logo {
+    font-size: 30px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    padding: 5px; }
+    nav .logo a {
+      color: #111;
+      text-decoration: none; }
+
+h1 {
+  display: inline-block;
+  font-size: 70px;
+  margin: 0 auto; }
+
+header {
+  position: relative;
+  text-align: center;
+  top: 200px; }
+
+/*overrides */
+.bg-light {
+  background-color: transparent !important; }
